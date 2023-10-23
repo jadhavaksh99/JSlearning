@@ -77,3 +77,17 @@ console.log(`====== Removing element in last=========`);
 arrayNumbers.pop();
 
 console.log(arrayNumbers);
+
+let arrayNumber = [22, 11, 44, 55, 77, 33];
+
+console.log(`====== slice() =========`);
+
+const arraySliced = arrayNumber.slice(3);
+
+console.log(arraySliced);
+
+ 
+
+const arrayElements = arrayNumber.slice(1, 4);
+
+console.log(arrayElements);

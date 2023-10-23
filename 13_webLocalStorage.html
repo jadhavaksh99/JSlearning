@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>13 Web Local Storage</title>
+</head>
+<body>
+    <script>
+        window.localStorage.setItem('name', 'Akshay Dagdusaheb Jadhav');
+        window.localStorage.setItem('city', 'Pune');
+        window.localStorage.setItem('pin code', '411028');
+        window.localStorage.setItem('district', 'Pune')
+        console.log(window.localStorage.getItem('pin code'));
+        window.localStorage.removeItem('city')
+        console.log(window.localStorage.getItem('city'));
+    </script>
+</body>
+</html>
