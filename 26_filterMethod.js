@@ -25,6 +25,7 @@ const emp_mahi = new Employee(99, "Mahesh", "HR", 85000, "Infy");
 // Give me the salary list of tcs employees
  // 1. Salary list
  // 2. Only TCS employees
+ const arrayEmployees = [emp_anil, emp_radha, emp_rishi, emp_sonali, emp_monica, emp_viny, emp_mahi];
  const arrayTcsEmployees = arrayEmployees.filter( (employee) => {
     return employee.emp_company=='TCS';
  });

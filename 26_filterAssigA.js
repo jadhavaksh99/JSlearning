@@ -39,7 +39,7 @@ var sum = 0;
 arraySalaryWipro.forEach( (salary) => {
     sum += salary;
 });
-average = sum / arraySalaryWipro.length
+let average = sum / arraySalaryWipro.length
 console.log(average);
 
 console.log("===========Find average salary of employee from company Wipro or Infy=========");

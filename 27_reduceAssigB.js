@@ -70,12 +70,12 @@ const arrayItSalary = arrayEmps.filter( (employee) => {
 }).map( (employee) => {
     return employee.emp_salary
 })
-let avg = null;
-salaryAverage = arrayItSalary.reduce((runningTotal, value, index) => {
-    runningTotal = runningTotal + value;
-    if (index == arrayItSalary.length -1 ) {
-        avg = runningTotal / arrayItSalary.length;
-    }
-    return runningTotal;
-})
-console.log(avg);
+// let avg = null;
+// salaryAverage = arrayItSalary.reduce((runningTotal, value, index) => {
+//     runningTotal = runningTotal + value;
+//     if (index == arrayItSalary.length -1 ) {
+//         avg = runningTotal / arrayItSalary.length;
+//     }
+//     return runningTotal;
+// })
+// console.log(avg);
