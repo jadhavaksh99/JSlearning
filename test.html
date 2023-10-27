@@ -3,17 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>test script</title>
+    <title>DOM Learning code</title>
 </head>
 <body>
-    <h2>Session Storage</h2>
+    <h2 id="title">Learning DOM</h2>
+    <h2>My Tech stack is:</h2>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Git and Github</li>
+        <li>Javascript</li>
+    </ul>
     <script>
-        window.sessionStorage.setItem('name', 'akshay');
-        window.sessionStorage.setItem('city', 'Pune');
-        window.sessionStorage.setItem('Country', 'India');
-
-        const city = window.sessionStorage.getItem('city')
-        console.log(city);
+        const heading = document.getElementsByTagName('h2');
+        console.log(heading[0].innerHTML);
+        console.log(heading[1].innerHTML);
     </script>
 </body>
 </html>
